@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    height:80px;
+    width:75px;
+    
+    
+}
+
+/*
+@media only screen and (max-width:600px){
+    .pens {
+
+display: block;
+
+        
+      
+    }
+}
+*/
+
+
+
+
+
+@media (min-width:600px) {
+  img.pen {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+.main{
+    margin:3px;
+    max-width: 100%;
+    padding-top:94px;
+    
+    position: absolute; 
+   
+   
+}
+
+.container :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container2 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container3 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container4 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container5 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container6 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container7 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container8 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+.container9 :hover {
+    transform:scale(1.15);
+    transition: all 0.1s;
+    
+}
+
+
+    
+    
+
+
+body{
+    
+}
+
+ 
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color:rgb(74, 48, 75)
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap;
+    margin: 3px;
+    column-gap: 4px;
+    
+    
+       
+}
+
+.container::before{
+    content: "1";
+    margin:auto;
+}
+
+
+
+.act{
+    background-color: rgb(255, 0, 0);
+    flex:1;
+    font-size: small;
+    padding:1px;
+    
+}
+
+.lan{
+    background-color: orangered;
+    flex:1;
+    padding:1px;
+    
+}
+
+.none{
+    background-color: #a25d42;
+    flex:1;
+    padding:1px;
+    margin:1px;
+    
+}
+
+
+
+.cyan{
+    background-color: cyan;
+    flex:1;
+    padding:1px;
+    
+
+    
+    
+}
+
+.violet{
+    background-color: violet;
+    flex:1;
+    padding:1px;
+    margin:1px;
+    
+}
+
+.dark{
+    background-color: darkgreen;
+    flex:1;
+    padding: 1px;
+    margin:1px;
+    
+}
+
+.beige{
+    background-color: #9F8C76;
+    flex:1;
+    padding:1px;
+}
+
+.black{
+    background-color: black;
+    color: ghostwhite;
+    flex:1;
+    padding:1px;
+}
+
+.blue{
+    background-color: blue;
+    flex:1;
+    padding:1px;
+}
+
+.red{
+    background-color: red;
+    flex:1;
+    padding:1px;
+}
+
+.green{
+    background-color: green;
+    flex:1;
+    padding:1px;
+}
+
+.post{
+    background-color: #9aad31;
+    flex:1;
+    padding:0px;
+    margin:1px;
+}
+
+.tran{
+    background-color: chartreuse;
+    flex:1;
+    padding:1px;
+    margin:4px;
+}
+
+.blue33{
+    background-color: white;
+    color: white;
+    border: none;
+    flex:1;
+    padding:1vh;
+}
+
+
+
+
+
+
+
+
+
+.pens{
+    display: block;
+}
+
+
+
+
+@media only screen and (max-width:1300px){
+    .container, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .blue33, .main, body, h1  {
+      background-color: black;
+      color: rgb(235, 158, 15); 
+      
+      
+      
+    }
+  }
+
+  @media only screen and (max-width:800px){
+    
+    .container, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .blue33, .main, body, h1  {
+        
+        background-color: rebeccapurple;
+        color:white;
+
+
+
+
+      
+      
+      
+    }
+    
+    
+  }
+
+  
+
+  @media only screen and (max-width:600px){
+    
+    .container, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .blue33, .main, body, .lan, .beige, .black,
+    .blue, .tran, .post, .green, .dark, .blue33, .red, .cyan, .none, .act, .four   {
+       
+      display:block;
+      overflow: hidden;
+      background-color: rebeccapurple;
+      color: rebeccapurple;
+
+
+      
+
+        
+      
+    }
+    
+  }
+
+   @media only screen and (max-width:500px){
+    
+    container, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .blue33, .main, body, .lan, .beige, .black,
+    .blue, .tran, .post, .green, .dark, .blue33, .red, .cyan, .none, .act   {
+       
+      display:block;
+      overflow: hidden;
+
+      
+
+        
+      
+    }
+    
+  }
+
+
+
+
+  
+  
+
+
+ 
+
+/*
+
+@media (min-width: 475px) 
+  */
+
+
+
+.container2{
+   display: flex; 
+   flex-flow: wrap;
+  margin: 2px;
+  column-gap: 4px;
+  
+
+
+   
+   
+}
+
+.container2::before{
+    content: "2";
+    margin:auto;
+    
+    
+}
+
+
+
+.container3{
+    display: flex;
+    flex-flow: wrap;
+    margin: 4px;
+    column-gap: 3px;
+    
+}
+
+.container3::before{
+    content: "3";
+    margin:auto;
+}
+
+
+.container4{
+    display: flex;
+    flex-flow: wrap;
+    margin: 3px;
+    column-gap: 3px;
+}
+
+.container4::before{
+    content: "4";
+    margin:auto;
+}
+
+.container5{
+    display: flex;
+    flex-flow: wrap;
+    margin: 2px;
+    column-gap: 3px;
+}
+
+.container5::before{
+    content: "5";
+    margin:auto;
+}
+
+.container6{
+    display:flex;
+    flex-flow: wrap;
+    margin: 2px;
+    column-gap: 3px;
+}
+
+.container6::before{
+    content: "6";
+    margin:auto;
+}
+
+.container7{
+    display: flex;
+    flex-flow: wrap;
+    margin: 2px;
+    column-gap: 3px;
+    
+}
+
+.container7::before{
+    content: "7";
+    margin:auto;
+}
+
+.container8{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 15px;
+    column-gap: 3px;
+    
+    
+}
+
+
+
+.container9{
+    display:flex;
+    flex-flow: wrap;
+    margin: 2px;
+    column-gap: 3px;
+}
+
+
+
+.blue33, .blue34{
+    align-self: start;
+}
+
+
+
+
+
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+
+  .number{
+    font-size: 8px;
+    font-weight: bold;
+    margin: 2px;
+    
+}
+
+.num{
+ 
+ font-weight: bolder; 
+    font-size: 9px;
+    margin: 2px;
+    
+    
+}
+
+.two{
+    font-weight: bolder;
+    
+    
+    
+}
+
+.three{
+    font-weight: bold;
+    font-size: 9px;
+    align-self: center;
+    
+}
+.four{
+    font-size: 9px;
+    color:black;
+}
+
+
+span{
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+/*
+
+@media only screen and (max-width:700px){
+    .num, .number, .one, .two, .three, .four{
+display: block;
+    }
+}
+
+*/
+
+
